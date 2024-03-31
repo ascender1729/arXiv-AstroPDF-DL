@@ -87,7 +87,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Pavan Kumar - pavankumpavankumard.pg19.ma@nitp.ac.in
+Pavan Kumar - pavankumard.pg19.ma@nitp.ac.in
 
 GitHub Profile: [@ascender1729](https://github.com/ascender1729)
 
