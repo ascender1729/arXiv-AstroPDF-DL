@@ -87,7 +87,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-If you have any questions about the script, you can reach out to me directly here on GitHub or through the email provided in my profile.
+Pavan Kumar - pavankumpavankumard.pg19.ma@nitp.ac.in
 
 GitHub Profile: [@ascender1729](https://github.com/ascender1729)
 
