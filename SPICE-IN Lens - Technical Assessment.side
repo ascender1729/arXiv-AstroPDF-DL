@@ -1,0 +1,66 @@
+{
+  "id": "bdc463d0-5b86-45fe-9fcb-cf642989b5f5",
+  "version": "2.0",
+  "name": "SPICE-IN Lens - Technical Assessment",
+  "url": "https://arxiv.org/",
+  "tests": [{
+    "id": "60c8f79b-4b57-48ea-be67-be70ba565634",
+    "name": "DownloadLatestAstrophysicsPDF_arXiv",
+    "commands": [{
+      "id": "87a62367-7f6f-442c-b1f8-536bc99dcb61",
+      "comment": "",
+      "command": "open",
+      "target": "https://arxiv.org/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c363d1e-bff9-4452-a5a5-609457e68b9e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "780x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4745eb85-f7f8-4f01-b388-663decbba3dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=new-astro-ph",
+      "targets": [
+        ["id=new-astro-ph", "id"],
+        ["linkText=new", "linkText"],
+        ["css=#new-astro-ph", "css:finder"],
+        ["xpath=(//a[contains(text(),'new')])[2]", "xpath:link"],
+        ["xpath=//a[@id='new-astro-ph']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/ul/li/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/list/astro-ph/new')]", "xpath:href"],
+        ["xpath=//li/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "167789f5-5a9d-4513-a577-a0366bc5fb6f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=pdf",
+      "targets": [
+        ["linkText=pdf", "linkText"],
+        ["css=dl:nth-child(10) > dt:nth-child(1) a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'pdf')]", "xpath:link"],
+        ["xpath=//div[@id='dlpage']/dl/dt/span/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pdf/2403.18888')]", "xpath:href"],
+        ["xpath=//span/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'pdf')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "23e48ab2-894f-4e4d-8edb-a369808c2309",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["60c8f79b-4b57-48ea-be67-be70ba565634"]
+  }],
+  "urls": ["https://arxiv.org/"],
+  "plugins": []
+}
