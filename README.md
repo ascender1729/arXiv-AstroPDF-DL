@@ -45,11 +45,6 @@ selenium-side-runner -c "browserName=chrome" "SPICE-IN Lens - Technical Assessme
 
 This command will launch Chrome and run the automated script to download the latest PDF. Please make sure that the `.side` file name matches the name of the file in the directory.
 
-## Understanding the Repository Contents
-
-- `LICENSE`: The license file describes the permissions, limitations, and conditions under which the software is released.
-- `README.md`: This detailed guide on setting up and using the automated script.
-- `SPICE-IN Lens - Technical Assessment.side`: The actual Selenium IDE script that performs the automated PDF download from arXiv.
 
 ## Contributing
 
