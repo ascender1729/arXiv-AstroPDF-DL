@@ -1,64 +1,94 @@
+
 # arXiv-AstroPDF-DL
 
-This repository hosts a Selenium IDE script for the automated downloading of the latest Astrophysics PDF from the arXiv repository. The script is designed to facilitate researchers, educators, and enthusiasts in keeping up with the latest papers in the Astrophysics domain without manual searching and downloading.
+Developed as part of a technical assessment, arXiv-AstroPDF-DL is a Selenium IDE script that automates the downloading of the latest Astrophysics PDF from the [arXiv](https://arxiv.org/) repository. It demonstrates the use of browser automation to facilitate quick access to new scientific publications.
+
+## Table of Contents
+
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Setup and Installation](#setup-and-installation)
+  - [Clone the Repository](#clone-the-repository)
+  - [Browser Setup](#browser-setup)
+  - [Running the Script](#running-the-script)
+- [Usage](#usage)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Features
+
+- **Automated PDF Downloads**: Automatically fetches and downloads the latest Astrophysics PDF from the arXiv repository.
+- **Ease of Use**: User-friendly script designed for simplicity and ease of use.
 
 ## Prerequisites
 
-Before running this script, you'll need:
+Before starting, ensure you have the following:
 
-- A modern web browser (Firefox or Chrome recommended).
-- The Selenium IDE extension installed on your browser. You can download it from the [official Selenium site](https://www.selenium.dev/selenium-ide/).
-- [Git](https://git-scm.com/) installed to clone the repository.
+- A web browser (Firefox or Chrome recommended).
+- Selenium IDE extension for your web browser.
+- [Git](https://git-scm.com/) installed for cloning the repository.
 
-Optional:
-- The Selenium Command Line Runner ([Selenium Side Runner](https://www.selenium.dev/selenium-ide/docs/en/introduction/command-line-runner)) if you prefer to run the script from the command line.
+## Setup and Installation
 
-## Installation and Setup
-
-Follow these steps to get the script up and running on your local machine:
+### Clone the Repository
 
 ```bash
-# Clone the repository
 git clone https://github.com/ascender1729/arXiv-AstroPDF-DL.git
-
-# Navigate to the cloned directory
 cd arXiv-AstroPDF-DL
 ```
 
-## Running the Script
+### Browser Setup
 
-You can run the script using two methods:
+Ensure Selenium IDE is installed in your browser and set the browser to automatically download PDFs without confirmation.
 
-### Method 1: Using Selenium IDE
+### Running the Script
 
-1. Open Selenium IDE in your browser.
-2. Import the `SPICE-IN Lens - Technical Assessment.side` file into Selenium IDE by clicking 'Open an existing project'.
-3. Once the project is loaded, execute the test suite or individual tests as needed.
+For running through Selenium IDE:
 
-### Method 2: Using Selenium Side Runner (Command Line)
+1. Launch the Selenium IDE.
+2. Import the `.side` project file.
+3. Execute the test.
 
-If you have installed Selenium Side Runner, you can run your Selenium IDE scripts from the terminal. Execute the following command within the repository directory:
+For running through Selenium Side Runner:
 
 ```bash
 selenium-side-runner -c "browserName=chrome" "SPICE-IN Lens - Technical Assessment.side"
 ```
 
-This command will launch Chrome and run the automated script to download the latest PDF. Please make sure that the `.side` file name matches the name of the file in the directory.
+## Usage
 
+To download the latest Astrophysics PDF from arXiv:
+
+- Open the script with Selenium IDE.
+- Run the script and the download should start automatically.
+
+## Troubleshooting
+
+If the script does not perform as expected:
+
+- Check that the Selenium IDE is correctly installed and configured.
+- Ensure that the browser settings allow for automatic downloading of PDF files.
 
 ## Contributing
 
-Feel free to fork this repository, make changes, and submit pull requests. Your contributions to improve the script or expand its functionality are highly appreciated.
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request.
 
 ## License
 
-This project and its contents are released under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact and Support
+## Contact
 
-If you encounter any problems or have suggestions, please submit an issue on the [GitHub issue tracker](https://github.com/ascender1729/arXiv-AstroPDF-DL/issues), or propose changes by submitting a pull request.
+If you have any questions about the script, you can reach out to me directly here on GitHub or through the email provided in my profile.
 
-## Acknowledgments
+GitHub Profile: [@ascender1729](https://github.com/ascender1729)
 
-- Thanks to arXiv for providing free access to scientific papers.
-- Microsoft Research India for their SPICE-IN Lens initiative which inspired the creation of this script.
+Project Link: [arXiv-AstroPDF-DL](https://github.com/ascender1729/arXiv-AstroPDF-DL)
